@@ -1,0 +1,57 @@
+.damage-selectors {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.damage-selectors__group {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.damage-selectors__group--1 {
+  top: -20px;
+}
+
+.damage-selectors__group--2 {
+  top: 50%;
+  transform: translateY(-50%);
+  width: calc(100% + 70px);
+  margin: 0 -35px;
+}
+
+.damage-selectors__group--3 {
+  bottom: -20px;
+}
+
+.damage-selector--B2, .damage-selector--B3 {
+  margin: 0 auto;
+}
+
+.damage-selector--B4 {
+  margin-left: auto;
+  margin-right: 12px;
+}
+
+
+.damage-selector-btn {
+  position: absolute;
+  bottom: -80px;
+  background-color: #103366;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  padding: 12px 16px;
+  font-size: 24px;
+  width: 100%;
+}
+
+.damage-selector-btn:hover {
+  cursor: pointer;
+}

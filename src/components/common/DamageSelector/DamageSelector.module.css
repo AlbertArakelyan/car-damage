@@ -1,0 +1,26 @@
+.damage-selector {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+.damage-selector__input {
+  display: none;
+}
+
+.damage-selector__checked-indicator {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.damage-selector__checked-indicator:hover {
+  cursor: pointer;
+}
+
+.damage-selector__input:checked + .damage-selector__checked-indicator {
+  background-color: #FF6F42;
+}

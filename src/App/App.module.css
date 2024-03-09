@@ -1,0 +1,23 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.car-damage-container {
+  position: relative;
+}
+
+.car-image-wrapper {
+  max-width: 463px;
+  width: 100%;
+}
+
+.car-image {
+  width: 100%;
+  display: block;
+}
